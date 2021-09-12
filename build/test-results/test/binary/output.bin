@@ -1,0 +1,20 @@
+this -> [a, b, c]
+sublist -> [a, b, c], n = 2
+this -> [b, c]
+sublist -> [b, c], n = 1
+map -> [[b]]
+this -> [c]
+sublist -> [c], n = 1
+map -> [[c]]
+map -> [[b, a], [c, a]]
+this -> [b, c]
+sublist -> [b, c], n = 2
+this -> [c]
+sublist -> [c], n = 1
+map -> [[c]]
+map -> [[c, b]]
+this -> [c]
+sublist -> [c], n = 2
+
+map -> []
+[[b, a], [c, a], [c, b]]
