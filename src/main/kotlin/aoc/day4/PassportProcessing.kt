@@ -2,7 +2,7 @@ package aoc.day4
 
 import java.io.File
 
-const val FILE_PATH = "/Users/arnab/Documents/01_Work/11_kotlin/kotlin99/src/main/kotlin/aoc/day4/input.txt"
+const val FILE_PATH = "src/main/kotlin/aoc/day4/input.txt"
 
 val MANDATORY_PROPERTIES = listOf("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid")
 

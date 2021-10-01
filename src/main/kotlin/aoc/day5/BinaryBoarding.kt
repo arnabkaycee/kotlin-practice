@@ -4,7 +4,7 @@ import java.io.File
 
 const val FILE_PATH = "/Users/arnab/Documents/01_Work/11_kotlin/kotlin-aoc/src/main/kotlin/aoc/day5/input.txt"
 
-val encodedSeats: List<String> = File(FILE_PATH).readLines()
+val encodedSeats: List<String> = File(FILE_PATH).bufferedReader().readLines()
 
 fun convert(str: String, range: IntRange): Int {
     var seatRange = range

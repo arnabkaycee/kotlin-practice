@@ -2,7 +2,7 @@ package aoc.day1
 
 import java.io.File
 
-const val FILE_PATH = "/Users/arnab/Documents/01_Work/11_kotlin/kotlin99/src/main/kotlin/aoc/day1/input.txt"
+const val FILE_PATH = "src/main/kotlin/aoc/day1/input.txt"
 val numbers = File(FILE_PATH).readLines().map { it.toInt() }
 //
 //fun find2020PairProduct() : Pair<Int, Int?>? {

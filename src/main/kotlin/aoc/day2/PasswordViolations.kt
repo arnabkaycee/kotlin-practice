@@ -2,7 +2,7 @@ package aoc.day2
 
 import java.io.File
 
-const val FILE_PATH = "/Users/arnab/Documents/01_Work/11_kotlin/kotlin99/src/main/kotlin/aoc/day2/input.txt"
+const val FILE_PATH = "src/main/kotlin/aoc/day2/input.txt"
 
 data class Policy(val minCharCount: Int, val maxCharCount: Int, val char: Char)
 

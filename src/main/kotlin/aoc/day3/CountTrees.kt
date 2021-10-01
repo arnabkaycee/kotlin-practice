@@ -4,7 +4,7 @@ import java.io.File
 import kotlin.math.ceil
 import kotlin.text.StringBuilder
 
-const val FILE_PATH = "/Users/arnab/Documents/01_Work/11_kotlin/kotlin99/src/main/kotlin/aoc/day3/input.txt"
+const val FILE_PATH = "src/main/kotlin/aoc/day3/input.txt"
 
 val terrain: List<String> = File(FILE_PATH).readLines()
 
